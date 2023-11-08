@@ -29,7 +29,7 @@ public class EmployeeController {
         LOGGER.info("Employee find");
         return repository.findAll();
     }
-
+//for testing
     @GetMapping("/{id}")
     public Employee findById(@PathVariable("id") Long id) {
         LOGGER.info("Employee find: id={}", id);
