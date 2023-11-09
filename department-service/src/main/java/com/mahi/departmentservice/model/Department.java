@@ -2,7 +2,7 @@ package com.mahi.departmentservice.model;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// model class 
 public class Department {
     private Long id;
     private String name;
